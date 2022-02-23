@@ -1,10 +1,10 @@
 /*@
   <p>This macro downloads an hourly load file from the
-  <a href="https://en.openei.org/datasets/dataset/commercial-and-residential-hourly-load-profiles-for-all-tmy3-locations-in-the-united-states">
+  <a href="https://data.openei.org/submissions/153">
   NREL OpenEI building load database</a> and imports 
   it to the Electric Load input page. The OpenEI load files are a collection of 
   8,760 hourly load profiles for a range of building types for each of the 1,020 
-  U.S. locations in the legacy <a href="https://rredc.nrel.gov/solar/old_data/nsrdb/1991-2005/tmy3/">
+  U.S. locations in the legacy <a href="https://nsrdb.nrel.gov/data-sets/archives.html">
   NSRDB TMY3 data set</a>. The script identifies the TMY3 location nearest the
   latitude and longitude in your weather file, and downloads the load file for your building
   type for that TMY3 location. If the script cannot identify the latitude and
